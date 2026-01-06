@@ -11,15 +11,15 @@ $ man rsync | python man_vec_search.py --query "remote shell connection"
 ```
 output:
 ```
-    1. Score: 0.6951: shell connection, use the --remote-option (-M) option:
-    --------------------
-        specified) and non-user extended attributes (if --xattrs was specified).
-        This is a good way to backup data without using a super-user, and to store ACLs from incompatible systems.
-        The --fake-super option only affects the side where the option is used.  To affect the remote  side  of  a  remote-
-    --> shell connection, use the --remote-option (-M) option:
-        rsync -av -M--fake-super /src/ host:/dest/
-        For a local copy, this option affects both the source and the destination.  If you wish a local copy to enable this
-        option just for the destination files, specify -M--fake-super.  If you wish a local copy to enable this option just
+1. Score: 0.6951: shell connection, use the --remote-option (-M) option:
+--------------------
+    specified) and non-user extended attributes (if --xattrs was specified).
+    This is a good way to backup data without using a super-user, and to store ACLs from incompatible systems.
+    The --fake-super option only affects the side where the option is used.  To affect the remote  side  of  a  remote-
+--> shell connection, use the --remote-option (-M) option:
+    rsync -av -M--fake-super /src/ host:/dest/
+    For a local copy, this option affects both the source and the destination.  If you wish a local copy to enable this
+    option just for the destination files, specify -M--fake-super.  If you wish a local copy to enable this option just
 ```
 <details>
   <summary>more</summary>
