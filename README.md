@@ -1,5 +1,4 @@
 # Vector search on Linux(Unix) manual pages
-vector search on man pages
 
 Install tensorflow and search on man page using the following pattern:
 ```
