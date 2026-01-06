@@ -2,7 +2,7 @@
 
 Install tensorflow and search on man page using the following pattern:
 ```
-man [command] | python3 man_vec_search.py --query "your query"
+man [command] | python man_vec_search.py --query "your query"
 ```
 
 Example:
