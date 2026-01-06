@@ -19,7 +19,7 @@ def main():
         print("Error: No input data received from stdin.")
         sys.exit(1)
     pattern = re.compile(r'[-()]+')
-    formatted_lines = [pattern.sub(' ', line) for line in document_lines]
+    formatted_lines = [pattern.sub(' ', line.lower()) for line in document_lines]
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--query", type=str, required=True, help="Text to search for")
