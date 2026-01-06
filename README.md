@@ -10,7 +10,7 @@ Example:
 ```
 $ man rsync | python man_vec_search.py --query "remote shell connection"
 ```
-
+output:
 ```
     1. Score: 0.6935: shell connection, use the --remote-option (-M) option:
     --------------------
